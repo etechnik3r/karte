@@ -74,13 +74,17 @@ var createOverpassQuery = function(selectors) {
   return base_url+query;
 }
 
-
+var getMapBounds = function() {
+  var bounds = map.getBounds();
+  return "" + bounds.getSouthWest().lat + ', ' + bounds.getSouthWest().lng + ', ' + bounds.getNorthEast().lat + ', ' + bounds.getNorthEast().lng;
+};
 
 // Suche
 
 var createOverpassSearchQuery = function(searchstring) {
   var base_url= "https://overpass-api.de/api/interpreter?data="
-  var area = "52.40163, 10.16552, 52.42210, 10.20132"
+  var area = getMapBounds();
+  //area = "52.40163, 10.16552, 52.42210, 10.20132"
   var query ='[out:json][timeout:25];';
   
   query = query + "("
@@ -103,6 +107,7 @@ var search = function(searchstring) {
   $.getJSON( createOverpassSearchQuery(searchstring), function(json_data ) {
     var geojson = osmtogeojson(json_data);
     searchresultlayer.addData(geojson);
+    map.fitBounds(searchresultlayer.getBounds(), {maxZoom: 19, padding: [20,20], animate: true, duration: 2.0});
   });
 }
 
