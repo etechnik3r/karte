@@ -93,8 +93,8 @@ var createOverpassSearchQuery = function(searchstring) {
   var query ='[out:json][timeout:25];';
   
   query = query + "("
-  query = query + 'node["name"~"' + searchstring + '"](' + area + ');'
-  query = query + 'way["name"~"' + searchstring + '"](' + area + ');'
+  query = query + 'node["name"~"' + searchstring + '",i](' + area + ');'
+  query = query + 'way["name"~"' + searchstring + '",i](' + area + ');'
   query = query + ");"
  
   query = query + 'out;>;out skel qt;';
