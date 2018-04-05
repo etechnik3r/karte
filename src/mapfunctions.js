@@ -61,7 +61,7 @@ var iconDorferlebnispfad = L.icon({
 });
 
 var createOverpassQuery = function(selectors) {
-  var base_url= "http://overpass-api.de/api/interpreter?data="
+  var base_url= "https://overpass-api.de/api/interpreter?data="
   var area = "52.40163, 10.16552, 52.42210, 10.20132"
   var query ='[out:json][timeout:25];';
   
@@ -79,7 +79,7 @@ var createOverpassQuery = function(selectors) {
 // Suche
 
 var createOverpassSearchQuery = function(searchstring) {
-  var base_url= "http://overpass-api.de/api/interpreter?data="
+  var base_url= "https://overpass-api.de/api/interpreter?data="
   var area = "52.40163, 10.16552, 52.42210, 10.20132"
   var query ='[out:json][timeout:25];';
   
