@@ -21,9 +21,9 @@ var showDorferlebnispfad = function(show) {
         }
       });
       
-      layerDorferlebnispfad.bindTooltip(function(layer){
-        return layer.feature.properties.tags.name;
-      });
+//       layerDorferlebnispfad.bindTooltip(function(layer){
+//         return layer.feature.properties.tags.name;
+//       });
       layerDorferlebnispfad.bindPopup(function(layer){
         var content ="";
         content = content + '<b>' + layer.feature.properties.tags.name + '</b><br>';
@@ -33,7 +33,13 @@ var showDorferlebnispfad = function(show) {
         return content
       });
       
+      //Pfad
+      $.getJSON( "data/dorferlebnispfad.geojson", function(geojson ) {
+          //var geojson = osmtogeojson(json_data);
+          layerDorferlebnispfad.addData(geojson);
+      });
       
+      // Stationen
       $.getJSON( createOverpassQuery(), function(json_data ) {
           var geojson = osmtogeojson(json_data);
           layerDorferlebnispfad.addData(geojson);
@@ -84,7 +90,6 @@ var getMapBounds = function() {
 var createOverpassSearchQuery = function(searchstring) {
   var base_url= "https://overpass-api.de/api/interpreter?data="
   var area = getMapBounds();
-  //area = "52.40163, 10.16552, 52.42210, 10.20132"
   var query ='[out:json][timeout:25];';
   
   query = query + "("
@@ -103,6 +108,18 @@ var search = function(searchstring) {
   map.removeLayer(searchresultlayer);
   searchresultlayer = L.geoJSON(null);
   map.addLayer(searchresultlayer);
+  
+  searchresultlayer.bindPopup(function(layer){
+    var content ="";
+    if (layer.feature.properties.tags.hasOwnProperty("name")) {
+      content = content + '<b>' + layer.feature.properties.tags.name + '</b><br>';
+    }
+//     content = content + layer.feature.properties.tags.description + '<br>';
+//     content = content + '<br>';
+//     content = content + 'Weitere Details unter <a href="' + layer.feature.properties.tags.website + '">'+ layer.feature.properties.tags.website + '</a>';
+    return content
+  });
+  
   
   $.getJSON( createOverpassSearchQuery(searchstring), function(json_data ) {
     var geojson = osmtogeojson(json_data);
