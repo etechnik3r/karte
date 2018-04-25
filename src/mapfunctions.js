@@ -8,6 +8,26 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 
+var ObjectCompare = function(object, path, data) {
+  var pathparts=path.split(".");
+  var current=object
+  for (var i=0; i< pathparts.length; i++) {
+    if (! current.hasOwnProperty(pathparts[i])) {
+      return false;
+    }
+    current=current[pathparts[i]];
+  }
+  
+  if (data !== undefined) {
+    if (current!=data) {
+      return false;
+    }
+  }
+  
+  return true;
+}
+
+
 // Dorferlebnispfad
 
 var layerDorferlebnispfad;
@@ -21,23 +41,25 @@ var showDorferlebnispfad = function(show) {
         }
       });
       
-//       layerDorferlebnispfad.bindTooltip(function(layer){
-//         return layer.feature.properties.tags.name;
-//       });
+      layerDorferlebnispfad.bindTooltip(function(layer){
+        var content;
+        if (ObjectCompare(layer, "feature.properties.tags.tourism", "information")) {
+          content = layer.feature.properties.tags.name;
+        }
+        return content;
+      });
+      
       layerDorferlebnispfad.bindPopup(function(layer){
-        var content ="";
-        content = content + '<b>' + layer.feature.properties.tags.name + '</b><br>';
-        content = content + layer.feature.properties.tags.description + '<br>';
-        content = content + '<br>';
-        content = content + 'Weitere Details unter <a href="' + layer.feature.properties.tags.website + '">'+ layer.feature.properties.tags.website + '</a>';
+        var content;
+        if (ObjectCompare(layer, "feature.properties.tags.tourism", "information")) {
+          content = '<b>' + layer.feature.properties.tags.name + '</b><br>';
+          content = content + layer.feature.properties.tags.description + '<br>';
+          content = content + '<br>';
+          content = content + 'Weitere Details unter <a href="' + layer.feature.properties.tags.website + '">'+ layer.feature.properties.tags.website + '</a>';
+        }
         return content
       });
       
-      //Pfad
-      $.getJSON( "data/dorferlebnispfad.geojson", function(geojson ) {
-          //var geojson = osmtogeojson(json_data);
-          layerDorferlebnispfad.addData(geojson);
-      });
       
       // Stationen
       $.getJSON( createOverpassQuery(), function(json_data ) {
@@ -102,6 +124,43 @@ var createOverpassSearchQuery = function(searchstring) {
 }
 
 
+var createOverpassSearchRestaurants = function() {
+  var base_url= "https://overpass-api.de/api/interpreter?data="
+  var area = getMapBounds();
+  var query ='[out:json][timeout:25];';
+  
+  query = query + "("
+  query = query + 'node["amenity"="restaurant"](' + area + ');'
+  query = query + 'way["amenity"="restaurant"](' + area + ');'
+  query = query + ");"
+ 
+  query = query + 'out;>;out skel qt;';
+  return base_url+query;
+}
+
+
+var metasearch = function(searchstring) {
+  
+  $.getJSON( createOverpassSearchQuery(searchstring), function(json_data ) {
+    var geojson = osmtogeojson(json_data);
+    searchresultlayer.addData(geojson);
+    map.fitBounds(searchresultlayer.getBounds(), {maxZoom: 19, padding: [20,20], animate: true, duration: 2.0});
+  });
+  
+  if ( searchstring == "Restaurant" ) {
+    $.getJSON( createOverpassSearchRestaurants(), function(json_data ) {
+      var geojson = osmtogeojson(json_data);
+      searchresultlayer.addData(geojson);
+      map.fitBounds(searchresultlayer.getBounds(), {maxZoom: 19, padding: [20,20], animate: true, duration: 2.0});
+    });
+    
+  }
+  
+
+};
+
+
+
 var searchresultlayer;
 
 var search = function(searchstring) {
@@ -121,11 +180,7 @@ var search = function(searchstring) {
   });
   
   
-  $.getJSON( createOverpassSearchQuery(searchstring), function(json_data ) {
-    var geojson = osmtogeojson(json_data);
-    searchresultlayer.addData(geojson);
-    map.fitBounds(searchresultlayer.getBounds(), {maxZoom: 19, padding: [20,20], animate: true, duration: 2.0});
-  });
+  metasearch(searchstring);
 }
 
 
