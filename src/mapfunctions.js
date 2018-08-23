@@ -31,6 +31,7 @@ var ObjectCompare = function(object, path, data) {
 // Dorferlebnispfad
 
 var layerDorferlebnispfad;
+var layerFlohmarkt;
 
 var showDorferlebnispfad = function(show) {
   if (show) {
@@ -87,6 +88,89 @@ var iconDorferlebnispfad = L.icon({
   shadowAnchor: [8, 32],
   popupAnchor: [0, -32]
 });
+
+
+var showFlohmarkt = function(show) {
+  if (show) {
+    if (layerFlohmarkt === undefined) {
+      layerFlohmarkt = L.geoJSON(null, {
+        pointToLayer: function (feature, latlng) {
+          var icon=iconDefault;
+          if (feature.properties.tags.amenity=="flohmarkt") {
+            icon=iconFlohmarkt;
+          } else if (feature.properties.tags.amenity=="parking") {
+            icon=iconParking;
+          } else if (feature.properties.tags.amenity=="cafe") {
+            icon=iconCafe;
+          }
+          return L.marker(latlng, {icon: icon});
+        }
+      });
+      
+      layerFlohmarkt.bindPopup(function(layer){
+        var content ="";
+        content = content + '<b>' + layer.feature.properties.tags.name + '</b>';
+        if (layer.feature.properties.tags.description){
+          content = content + '<br>';
+          content = content + layer.feature.properties.tags.description + '<br>';
+        }
+
+        return content
+      });
+      
+      //Pfad
+      $.getJSON( "data/flohmarkt.geojson", function(geojson ) {
+          //var geojson = osmtogeojson(json_data);
+          layerFlohmarkt.addData(geojson);
+      });
+      
+    }
+    map.addLayer(layerFlohmarkt);
+  } else {
+    if (layerFlohmarkt !== undefined) {
+      map.removeLayer(layerFlohmarkt);
+    }
+  }
+}
+
+var iconDefault = L.icon({
+  iconUrl: 'images/marker-icon.png',
+  iconSize: [25, 41],
+  iconAnchor: [12, 41],
+  shadowUrl: 'images/marker-shadow.png',
+  shadowSize: [41, 41],
+  shadowAnchor: [12, 41],
+  popupAnchor: [0, -32]
+});
+var iconFlohmarkt = L.icon({
+  iconUrl: 'images/marker-flohmarkt.png',
+  iconSize: [25, 41],
+  iconAnchor: [12, 41],
+  shadowUrl: 'images/marker-shadow.png',
+  shadowSize: [41, 41],
+  shadowAnchor: [12, 41],
+  popupAnchor: [0, -32]
+});
+var iconParking = L.icon({
+  iconUrl: 'images/marker-parking.png',
+  iconSize: [25, 41],
+  iconAnchor: [12, 41],
+  shadowUrl: 'images/marker-shadow.png',
+  shadowSize: [41, 41],
+  shadowAnchor: [12, 41],
+  popupAnchor: [0, -32]
+});
+var iconCafe = L.icon({
+  iconUrl: 'images/marker-cafe.png',
+  iconSize: [25, 41],
+  iconAnchor: [12, 41],
+  shadowUrl: 'images/marker-shadow.png',
+  shadowSize: [41, 41],
+  shadowAnchor: [12, 41],
+  popupAnchor: [0, -32]
+});
+
+
 
 var createOverpassQuery = function(selectors) {
   var base_url= "https://overpass-api.de/api/interpreter?data="

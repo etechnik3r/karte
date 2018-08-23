@@ -1,0 +1,70 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "tags": {
+          "name": "Parkplatz",
+          "amenity": "parking"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.174369812011719,
+          52.407602833938036
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tags": {
+          "name": "Kaffe und Kuchen",
+          "description": "Hier gibt es Kaffee, Kuchen und auch Würstchen.",
+          "amenity": "cafe"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.176687240600584,
+          52.40922596889305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tags": {
+          "name": "Hauptstraße 1",
+          "amenity": "flohmarkt"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.184240341186523,
+          52.405691646863964
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tags": {
+          "name": "Nebenstraße 2",
+          "amenity": "flohmarkt"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.174498558044434,
+          52.405691646863964
+        ]
+      }
+    }
+  ]
+} 

@@ -25,47 +25,51 @@
 
   <body>
 
-    <div class="w3-container w3-teal" style="height:10vh">
-      <h1>Dollbergen</h1>
+    <!-- Top Container -->
+    <div class="w3-bar w3-top w3-black w3-large" style="z-index:1004">
+      <button class="w3-bar-item w3-button w3-hide-large w3-hover-none w3-hover-text-light-grey" onclick="w3_open();"><i class="fa fa-bars"></i>  Menu</button>
+      <span class="w3-bar-item w3-right">Dollbergen</span>
     </div>
-        
-    <div class="w3-container w3-row-padding w3-light-grey">
+       
 
-      <div class="w3-col l3 m4 s4 w3-light-grey w3-padding-16">
-        <div class="w3-container w3-border w3-padding-16">
-          <div class="w3-row">
-            <div class="w3-col w3-right w3-blue" style="width:100px">
-              <button class="w3-button w3-block w3-black w3-round" id="btnSearch" name="submit" value="Suchen"
-                onclick="search(document.getElementById('txtSearch').value); return false">Suchen</button>
-            </div> 
-            <div class="w3-rest">
-              <input class="w3-input w3-round" type="text" id="txtSearch" placeholder=""
-                onkeydown = "if (event.keyCode == 13) document.getElementById('btnSearch').click()">
-            </div>
-          </div>
-            Beispiele:<br>
-            <button class="w3-button w3-tiny w3-padding-small w3-blue" onclick="setSearchString('Restaurant');">Restaurant</button>
-            <button class="w3-button w3-tiny w3-padding-small w3-blue" onclick="setSearchString('Blau');">Blau</button>
+
+    <!-- Sidebar/menu -->
+    <nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:1003;width:300px;" id="mySidebar"><br>
+      <div class="w3-container">
+        <h5>Informationen einblenden</h5>
+      </div>  
+
+      <div class="w3-container w3-padding-8">
+            <input class="w3-check" type="checkbox" id="editMap"
+            onclick="showDorferlebnispfad(this.checked)">
+            <label>Dorferlebnispfad</label>
+        </div>
+      <div class="w3-container w3-padding-8">
+            <input class="w3-check" type="checkbox" id="editMap"
+            onclick="showFlohmarkt(this.checked)">
+            <label>Flohmarkt 2018</label>
         </div>
 
-        <div class="w3-container w3-border w3-padding-16">
-          <input class="w3-check" type="checkbox" id="editMap"
-          onclick="showDorferlebnispfad(this.checked)">
-          <label>Dorferlebnispfad</label>
-        </div>
-        
-      </div>
+        </nav>
     
-      <div class="w3-col l9 m8 s8">
-        <div style="width:100%; height: 85vh;" id='map'></div>
-      </div>
-    </div>
+    <!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer;z-index:1002" title="close side menu" id="myOverlay"></div>
+
+    
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-main" style="margin-left:300px;margin-top:43px;">  
+
+    <div style="width:100%; height: 95vh;" id='map'></div>
+
 
    
-    <div class="w3-container w3-teal w3-center" style="height:5vh;">
-      Footer
-    </div>
-
+      <!-- Footer -->
+  <!-- <footer class="w3-container w3-padding-8 w3-light-grey"> -->
+    <!-- <h4>FOOTER</h4> -->
+    <!-- <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p> -->
+  <!-- </footer> -->
+  
+    <!-- End page content -->
     </div>
 
     <div id="infoAddDetails" class="w3-modal" style="z-index:1200">
@@ -85,5 +89,30 @@
     <script src="3rdparty/js/osmtogeojson.js"></script>
     <script src="src/mapfunctions.js"></script>
 
+    <script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+    if (mySidebar.style.display === 'block') {
+        mySidebar.style.display = 'none';
+        overlayBg.style.display = "none";
+    } else {
+        mySidebar.style.display = 'block';
+        overlayBg.style.display = "block";
+    }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+    overlayBg.style.display = "none";
+}
+</script>
+    
   </body>
 </html>
