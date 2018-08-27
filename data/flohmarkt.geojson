@@ -5,32 +5,15 @@
       "type": "Feature",
       "properties": {
         "tags": {
-          "name": "Parkplatz",
-          "amenity": "parking"
-        }
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.174369812011719,
-          52.407602833938036
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "tags": {
-          "name": "Kaffe und Kuchen",
-          "description": "Hier gibt es Kaffee, Kuchen und auch Würstchen.",
+          "name": "Kaffee und Kuchen",
           "amenity": "cafe"
         }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.176687240600584,
-          52.40922596889305
+          10.17935335636139,
+          52.40514183798611
         ]
       }
     },
@@ -38,15 +21,20 @@
       "type": "Feature",
       "properties": {
         "tags": {
-          "name": "Hauptstraße 1",
-          "amenity": "flohmarkt"
+          "name": "Flohmarkt"
         }
       },
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          10.184240341186523,
-          52.405691646863964
+          [
+            10.175265669822693,
+            52.407550473751535
+          ],
+          [
+            10.174621939659119,
+            52.406054909684606
+          ]
         ]
       }
     },
@@ -54,15 +42,90 @@
       "type": "Feature",
       "properties": {
         "tags": {
-          "name": "Nebenstraße 2",
-          "amenity": "flohmarkt"
+          "name": "Flohmarkt"
         }
       },
       "geometry": {
-        "type": "Point",
+        "type": "LineString",
         "coordinates": [
-          10.174498558044434,
-          52.405691646863964
+          [
+            10.173887014389038,
+            52.409896803597796
+          ],
+          [
+            10.175233483314514,
+            52.40971027985026
+          ],
+          [
+            10.175898671150208,
+            52.409615381500515
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tags": {
+          "name": "Flohmarkt"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            10.177744030952454,
+            52.40913106950132
+          ],
+          [
+            10.177942514419556,
+            52.40954993424381
+          ],
+          [
+            10.178081989288328,
+            52.4095728407947
+          ],
+          [
+            10.178500413894653,
+            52.409461580293225
+          ],
+          [
+            10.179117321968079,
+            52.409291416630445
+          ],
+          [
+            10.179315805435179,
+            52.40921942411398
+          ],
+          [
+            10.179653763771057,
+            52.40911470751661
+          ],
+          [
+            10.179482102394102,
+            52.408643479752016
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tags": {
+          "name": "Flohmarkt"
+        }
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            10.177931785583496,
+            52.40778282160514
+          ],
+          [
+            10.177588462829588,
+            52.407033413572506
+          ]
         ]
       }
     }

@@ -94,6 +94,11 @@ var showFlohmarkt = function(show) {
   if (show) {
     if (layerFlohmarkt === undefined) {
       layerFlohmarkt = L.geoJSON(null, {
+        style: {
+          "color": "#ff0000",
+          "weight": 5,
+          "opacity": 0.65
+        },
         pointToLayer: function (feature, latlng) {
           var icon=iconDefault;
           if (feature.properties.tags.amenity=="flohmarkt") {
