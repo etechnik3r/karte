@@ -128,6 +128,126 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tags": {
+          "name": "Flohmarkt"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.181472301483154,
+          52.40725594654435
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tags": {
+          "name": "Flohmarkt"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.181407928466797,
+          52.40705304887988
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tags": {
+          "name": "Flohmarkt"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.18128991127014,
+          52.406843605150556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tags": {
+          "name": "Flohmarkt"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.181697607040405,
+          52.40701377825638
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tags": {
+          "name": "Flohmarkt"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.181032419204712,
+          52.40651634733274
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tags": {
+          "name": "Flohmarkt"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.181504487991333,
+          52.40637235312376
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tags": {
+          "name": "Flohmarkt"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.180903673171997,
+          52.40582909801275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "tags": {
+          "name": "Flohmarkt"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.180989503860474,
+          52.405992729774354
+        ]
+      }
     }
   ]
 } 
