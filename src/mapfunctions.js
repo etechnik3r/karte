@@ -193,7 +193,8 @@ var createOverpassQuery = function(selectors) {
 
 var getMapBounds = function() {
   var bounds = map.getBounds();
-  return "" + bounds.getSouthWest().lat + ', ' + bounds.getSouthWest().lng + ', ' + bounds.getNorthEast().lat + ', ' + bounds.getNorthEast().lng;
+  //return "" + bounds.getSouthWest().lat + ', ' + bounds.getSouthWest().lng + ', ' + bounds.getNorthEast().lat + ', ' + bounds.getNorthEast().lng;
+  return "52.40021943419403, 10.158920288085938, 52.423726814004645, 10.202608108520508"
 };
 
 // Suche
@@ -213,14 +214,19 @@ var createOverpassSearchQuery = function(searchstring) {
 }
 
 
-var createOverpassSearchRestaurants = function() {
+var createOverpassMetaSearch = function(searchstring) {
   var base_url= "https://overpass-api.de/api/interpreter?data="
   var area = getMapBounds();
   var query ='[out:json][timeout:25];';
   
   query = query + "("
-  query = query + 'node["amenity"="restaurant"](' + area + ');'
-  query = query + 'way["amenity"="restaurant"](' + area + ');'
+  if ( searchstring == "Restaurant" ) {
+      query = query + 'node["amenity"="restaurant"](' + area + ');'
+      query = query + 'way["amenity"="restaurant"](' + area + ');'
+  } else if  ( searchstring == "Spielplatz" ) {
+      query = query + 'node["leisure"="plazground"](' + area + ');'
+      query = query + 'way["leisure"="playground"](' + area + ');'
+  }
   query = query + ");"
  
   query = query + 'out;>;out skel qt;';
@@ -235,15 +241,16 @@ var metasearch = function(searchstring) {
     searchresultlayer.addData(geojson);
     map.fitBounds(searchresultlayer.getBounds(), {maxZoom: 19, padding: [20,20], animate: true, duration: 2.0});
   });
+  var query;
+
   
-  if ( searchstring == "Restaurant" ) {
-    $.getJSON( createOverpassSearchRestaurants(), function(json_data ) {
+    $.getJSON( createOverpassMetaSearch(searchstring), function(json_data ) {
       var geojson = osmtogeojson(json_data);
       searchresultlayer.addData(geojson);
       map.fitBounds(searchresultlayer.getBounds(), {maxZoom: 19, padding: [20,20], animate: true, duration: 2.0});
     });
     
-  }
+  
   
 
 };
