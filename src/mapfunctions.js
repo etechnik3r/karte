@@ -276,4 +276,5 @@ var search = function(searchstring) {
 var setSearchString = function(string) {
   var element=document.getElementById("txtSearch");
   element.value=string;
+   document.getElementById('btnSearch').click();
 }  

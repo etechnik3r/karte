@@ -35,9 +35,22 @@
 
     <!-- Sidebar/menu -->
     <nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:1003;width:300px;" id="mySidebar"><br>
-      <div class="w3-container">
-        <h5>Informationen einblenden</h5>
-      </div>  
+
+        <div class="w3-container w3-padding-16">
+          <div class="w3-row">
+            <div class="w3-col w3-right" style="width:100px">
+              <button class="w3-button w3-block w3-black w3-round-large" id="btnSearch" name="submit" value="Suchen"
+                onclick="search(document.getElementById('txtSearch').value); w3_close(); return false">Suchen</button>
+            </div> 
+            <div class="w3-rest">
+              <input class="w3-input w3-border w3-round-large" type="text" id="txtSearch" placeholder=""
+                onkeydown = "if (event.keyCode == 13) document.getElementById('btnSearch').click();">
+            </div>
+          </div>
+            Beispiele:<br>
+            <button class="w3-button w3-tiny w3-padding-small w3-blue" onclick="setSearchString('Restaurant');">Restaurant</button>
+            <button class="w3-button w3-tiny w3-padding-small w3-blue" onclick="setSearchString('Blau');">Blau</button>
+        </div>
 
       <div class="w3-container w3-padding-8">
             <label>
