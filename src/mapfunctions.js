@@ -224,8 +224,11 @@ var createOverpassMetaSearch = function(searchstring) {
       query = query + 'node["amenity"="restaurant"](' + area + ');'
       query = query + 'way["amenity"="restaurant"](' + area + ');'
   } else if  ( searchstring == "Spielplatz" ) {
-      query = query + 'node["leisure"="plazground"](' + area + ');'
+      query = query + 'node["leisure"="playground"](' + area + ');'
       query = query + 'way["leisure"="playground"](' + area + ');'
+  } else if  ( searchstring == "Briefkasten" ) {
+      query = query + 'node["amenity"="post_box"](' + area + ');'
+      query = query + 'way["amenity"="post_box"](' + area + ');'
   }
   query = query + ");"
  
