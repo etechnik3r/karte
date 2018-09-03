@@ -114,11 +114,11 @@ var showFlohmarkt = function(show) {
       
       layerFlohmarkt.bindPopup(function(layer){
         var content ="";
-        content = content + '<b>' + layer.feature.properties.tags.name + '</b>';
-        if (layer.feature.properties.tags.description){
-          content = content + '<br>';
-          content = content + layer.feature.properties.tags.description + '<br>';
-        }
+        content = content + '<b>' + layer.feature.properties.name + '</b>';
+//        if (layer.feature.properties.tags.description){
+//          content = content + '<br>';
+//          content = content + layer.feature.properties.tags.description + '<br>';
+//        }
 
         return content
       });
