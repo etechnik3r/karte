@@ -101,13 +101,6 @@ var showFlohmarkt = function(show) {
         },
         pointToLayer: function (feature, latlng) {
           var icon=iconDefault;
-          if (feature.properties.tags.amenity=="flohmarkt") {
-            icon=iconFlohmarkt;
-          } else if (feature.properties.tags.amenity=="parking") {
-            icon=iconParking;
-          } else if (feature.properties.tags.amenity=="cafe") {
-            icon=iconCafe;
-          }
           return L.marker(latlng, {icon: icon});
         }
       });
@@ -287,4 +280,8 @@ var setSearchString = function(string) {
   var element=document.getElementById("txtSearch");
   element.value=string;
    document.getElementById('btnSearch').click();
-}  
+}
+
+document.getElementById('flohmarkt').checked=true;
+showFlohmarkt(true);
+  

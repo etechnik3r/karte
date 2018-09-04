@@ -1208,7 +1208,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Flyer"
+        "name": "Hier liegen Standpläne zum Mitnehmen"
       },
       "geometry": {
         "type": "Point",
@@ -1221,7 +1221,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name" : "Kaffee und Kuchen"
+        "name" : "Kaffee, Kuchen, Bratwurst und öffentliche Toiletten"
       },
       "geometry": {
         "type": "Point",
