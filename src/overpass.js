@@ -57,7 +57,7 @@ overpass.search_meta = function(searchstring, callback) {
   var query = overpass.base_url + overpass.query_prefix;
   var match=false;
 
-  if ( searchstring == "Restaurant" ) {
+  if ( searchstring == "Restaurants" ) {
       query = query + 'node["amenity"="restaurant"](' + overpass.area + ');'
       query = query + 'way["amenity"="restaurant"](' + overpass.area + ');'
       match=true;
@@ -68,6 +68,10 @@ overpass.search_meta = function(searchstring, callback) {
   } else if  ( searchstring == "Briefkasten" ) {
       query = query + 'node["amenity"="post_box"](' + overpass.area + ');'
       query = query + 'way["amenity"="post_box"](' + overpass.area + ');'
+      match=true;
+  } else if  ( searchstring == "Geschäft" ) {
+      query = query + 'node["shop"](' + overpass.area + ');'
+      query = query + 'way["shop"](' + overpass.area + ');'
       match=true;
   }
 
