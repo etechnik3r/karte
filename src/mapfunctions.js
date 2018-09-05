@@ -45,9 +45,29 @@ var search = function(searchstring) {
   
   searchresultlayer.bindPopup(function(layer){
     var content ="";
-    if (layer.feature.properties.tags.hasOwnProperty("name")) {
+    if (ObjectCompare(layer, "feature.properties.tags.name")) {
       content = content + '<b>' + layer.feature.properties.tags.name + '</b><br>';
+    } else if (ObjectCompare(layer, "feature.properties.tags.amenity", "restaurant")) {
+      content = content + '<b>' + 'Restaurant' + '</b><br>';
+    } else if (ObjectCompare(layer, "feature.properties.tags.amenity", "post_box")) {
+      content = content + '<b>' + 'Briefkasten' + '</b><br>';
+    } else if (ObjectCompare(layer, "feature.properties.tags.leisure", "playground")) {
+      content = content + '<b>' + 'Spielplatz' + '</b><br>';
     }
+
+    if (ObjectCompare(layer, "feature.properties.tags.opening_hours")) {
+      content = content + 'Öffnungszeiten: ' + layer.feature.properties.tags.opening_hours + '<br>';
+    }
+
+    if (ObjectCompare(layer, "feature.properties.tags.addr:street")) {
+      content = content + 'Adresse: ' + layer.feature.properties.tags['addr:street'] + ' ' +  layer.feature.properties.tags['addr:housenumber'] + '<br>';
+    }
+
+    if (ObjectCompare(layer, "feature.properties.tags.phone")) {
+      content = content + 'Telefon: ' + layer.feature.properties.tags.phone + '<br>';
+    }
+
+
 //     content = content + layer.feature.properties.tags.description + '<br>';
 //     content = content + '<br>';
 //     content = content + 'Weitere Details unter <a href="' + layer.feature.properties.tags.website + '">'+ layer.feature.properties.tags.website + '</a>';
