@@ -57,7 +57,7 @@ overpass.search_meta = function(searchstring, callback) {
   var query = overpass.base_url + overpass.query_prefix;
   var match=false;
 
-  if ( searchstring == "Restaurants" ) {
+  if ( searchstring == "Restaurant" ) {
       query = query + 'node["amenity"="restaurant"](' + overpass.area + ');'
       query = query + 'way["amenity"="restaurant"](' + overpass.area + ');'
       match=true;
