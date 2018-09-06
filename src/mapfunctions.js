@@ -56,7 +56,11 @@ var search = function(searchstring) {
     }
 
     if (ObjectCompare(layer, "feature.properties.tags.opening_hours")) {
-      content = content + 'Öffnungszeiten: ' + layer.feature.properties.tags.opening_hours + '<br>';
+      content = content + 'Öffnungszeiten: ' + overpass.parse_opening_hours(layer.feature.properties.tags.opening_hours) + '<br>';
+    }
+
+    if (ObjectCompare(layer, "feature.properties.tags.collection_times")) {
+      content = content + 'Leerung: ' + overpass.parse_opening_hours(layer.feature.properties.tags.collection_times) + '<br>';
     }
 
     if (ObjectCompare(layer, "feature.properties.tags.addr:street")) {

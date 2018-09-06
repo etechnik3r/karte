@@ -86,4 +86,6 @@ overpass.search_meta = function(searchstring, callback) {
 }
 
 
-
+overpass.parse_opening_hours =  function(osmdata) {
+  return osmdata
+}
