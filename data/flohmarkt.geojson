@@ -6,7 +6,7 @@
       "properties": {
         "@id": "way/23351306",
         "highway": "tertiary",
-        "name": "Bahnhofstraße",
+        "name": "Flohmarkt", "name_orig": "Flohmarkt", "name_orig": "Bahnhofstraße",
         "postal_code": "31311",
         "ref": "K 141"
       },
@@ -55,7 +55,7 @@
         "@id": "way/23361743",
         "highway": "residential",
         "maxspeed": "30",
-        "name": "Pröbenweg",
+        "name": "Flohmarkt", "name_orig": "Pröbenweg",
         "oneway": "no",
         "postal_code": "31311",
         "surface": "asphalt"
@@ -92,7 +92,7 @@
       "properties": {
         "@id": "way/23361747",
         "highway": "residential",
-        "name": "Fuhsestraße",
+        "name": "Flohmarkt", "name_orig": "Fuhsestraße",
         "postal_code": "31311"
       },
       "geometry": {
@@ -119,7 +119,7 @@
       "properties": {
         "@id": "way/23655578",
         "highway": "residential",
-        "name": "Wilhelm-Busch-Straße",
+        "name": "Flohmarkt", "name_orig": "Wilhelm-Busch-Straße",
         "postal_code": "31311"
       },
       "geometry": {
@@ -142,7 +142,7 @@
       "properties": {
         "@id": "way/25759764",
         "highway": "residential",
-        "name": "An der Masch",
+        "name": "Flohmarkt", "name_orig": "An der Masch",
         "postal_code": "31311"
       },
       "geometry": {
@@ -169,7 +169,7 @@
       "properties": {
         "@id": "way/34161856",
         "highway": "living_street",
-        "name": "Moorblick",
+        "name": "Flohmarkt", "name_orig": "Moorblick",
         "postal_code": "31311"
       },
       "geometry": {
@@ -192,7 +192,7 @@
       "properties": {
         "@id": "way/34161858",
         "highway": "living_street",
-        "name": "Moorblick",
+        "name": "Flohmarkt", "name_orig": "Moorblick",
         "postal_code": "31311"
       },
       "geometry": {
@@ -215,7 +215,7 @@
       "properties": {
         "@id": "way/34169566",
         "highway": "residential",
-        "name": "Hermann-Löns-Straße",
+        "name": "Flohmarkt", "name_orig": "Hermann-Löns-Straße",
         "postal_code": "31311"
       },
       "geometry": {
@@ -242,7 +242,7 @@
       "properties": {
         "@id": "way/34170610",
         "highway": "residential",
-        "name": "Grüne Riede",
+        "name": "Flohmarkt", "name_orig": "Grüne Riede",
         "postal_code": "31311"
       },
       "geometry": {
@@ -265,7 +265,7 @@
       "properties": {
         "@id": "way/34170804",
         "highway": "residential",
-        "name": "Ostlandweg",
+        "name": "Flohmarkt", "name_orig": "Ostlandweg",
         "postal_code": "31311"
       },
       "geometry": {
@@ -292,7 +292,7 @@
       "properties": {
         "@id": "way/34170863",
         "highway": "residential",
-        "name": "Gasolinweg",
+        "name": "Flohmarkt", "name_orig": "Gasolinweg",
         "postal_code": "31311"
       },
       "geometry": {
@@ -331,7 +331,7 @@
       "properties": {
         "@id": "way/34835510",
         "highway": "residential",
-        "name": "Theodor-Heuß-Straße",
+        "name": "Flohmarkt", "name_orig": "Theodor-Heuß-Straße",
         "postal_code": "31311"
       },
       "geometry": {
@@ -354,7 +354,7 @@
       "properties": {
         "@id": "way/34839159",
         "highway": "living_street",
-        "name": "Heisterbusch",
+        "name": "Flohmarkt", "name_orig": "Heisterbusch",
         "postal_code": "31311",
         "surface": "paving_stones"
       },
@@ -395,7 +395,7 @@
         "@id": "way/34839363",
         "bicycle": "designated",
         "highway": "path",
-        "name": "Pommernweg",
+        "name": "Flohmarkt", "name_orig": "Pommernweg",
         "postal_code": "31311"
       },
       "geometry": {
@@ -423,7 +423,7 @@
         "@id": "way/34839391",
         "bicycle": "designated",
         "highway": "path",
-        "name": "Heisterbusch",
+        "name": "Flohmarkt", "name_orig": "Heisterbusch",
         "postal_code": "31311"
       },
       "geometry": {
@@ -450,7 +450,7 @@
       "properties": {
         "@id": "way/34839407",
         "highway": "living_street",
-        "name": "Pommernweg",
+        "name": "Flohmarkt", "name_orig": "Pommernweg",
         "postal_code": "31311",
         "surface": "paving_stones"
       },
@@ -486,7 +486,7 @@
       "properties": {
         "@id": "way/34843726",
         "highway": "residential",
-        "name": "Gustav-Hennigs-Straße",
+        "name": "Flohmarkt", "name_orig": "Gustav-Hennigs-Straße",
         "postal_code": "31311"
       },
       "geometry": {
@@ -525,7 +525,7 @@
       "properties": {
         "@id": "way/34847847",
         "highway": "residential",
-        "name": "Springberg",
+        "name": "Flohmarkt", "name_orig": "Springberg",
         "postal_code": "31311"
       },
       "geometry": {
@@ -548,7 +548,7 @@
       "properties": {
         "@id": "way/34848021",
         "highway": "residential",
-        "name": "Pappelweg",
+        "name": "Flohmarkt", "name_orig": "Pappelweg",
         "postal_code": "31311"
       },
       "geometry": {
@@ -591,7 +591,7 @@
       "properties": {
         "@id": "way/37567980",
         "highway": "residential",
-        "name": "Alte Dorfstraße",
+        "name": "Flohmarkt", "name_orig": "Alte Dorfstraße",
         "postal_code": "31311"
       },
       "geometry": {
@@ -614,7 +614,7 @@
       "properties": {
         "@id": "way/37567981",
         "highway": "residential",
-        "name": "Bahnhofstraße",
+        "name": "Flohmarkt", "name_orig": "Bahnhofstraße",
         "postal_code": "31311"
       },
       "geometry": {
@@ -645,7 +645,7 @@
       "properties": {
         "@id": "way/37640504",
         "highway": "residential",
-        "name": "Bahnhofstraße",
+        "name": "Flohmarkt", "name_orig": "Bahnhofstraße",
         "postal_code": "31311"
       },
       "geometry": {
@@ -692,7 +692,7 @@
       "properties": {
         "@id": "way/39068087",
         "highway": "residential",
-        "name": "Ackersbergstraße",
+        "name": "Flohmarkt", "name_orig": "Ackersbergstraße",
         "postal_code": "31311"
       },
       "geometry": {
@@ -719,7 +719,7 @@
       "properties": {
         "@id": "way/39068087",
         "highway": "residential",
-        "name": "Ackersbergstraße",
+        "name": "Flohmarkt", "name_orig": "Ackersbergstraße",
         "postal_code": "31311"
       },
       "geometry": {
@@ -751,7 +751,7 @@
         "@id": "way/40404031",
         "highway": "residential",
         "maxspeed": "30",
-        "name": "Alte Dorfstraße",
+        "name": "Flohmarkt", "name_orig": "Alte Dorfstraße",
         "postal_code": "31311"
       },
       "geometry": {
@@ -774,7 +774,7 @@
       "properties": {
         "@id": "way/40404032",
         "highway": "residential",
-        "name": "Alte Dorfstraße",
+        "name": "Flohmarkt", "name_orig": "Alte Dorfstraße",
         "postal_code": "31311"
       },
       "geometry": {
@@ -805,7 +805,7 @@
       "properties": {
         "@id": "way/93423554",
         "highway": "residential",
-        "name": "Fuhsering",
+        "name": "Flohmarkt", "name_orig": "Fuhsering",
         "postal_code": "31311"
       },
       "geometry": {
@@ -852,7 +852,7 @@
       "properties": {
         "@id": "way/355142461",
         "highway": "residential",
-        "name": "Alte Dorfstraße",
+        "name": "Flohmarkt", "name_orig": "Alte Dorfstraße",
         "postal_code": "31311"
       },
       "geometry": {
@@ -879,7 +879,7 @@
       "properties": {
         "@id": "way/493703677",
         "highway": "living_street",
-        "name": "Im Heesters",
+        "name": "Flohmarkt", "name_orig": "Im Heesters",
         "oneway": "no",
         "surface": "paving_stones"
       },
@@ -915,7 +915,7 @@
       "properties": {
         "@id": "way/582931636",
         "highway": "residential",
-        "name": "Fuhsestraße",
+        "name": "Flohmarkt", "name_orig": "Fuhsestraße",
         "postal_code": "31311"
       },
       "geometry": {
@@ -946,7 +946,7 @@
       "properties": {
         "@id": "way/582931637",
         "highway": "residential",
-        "name": "Fuhsestraße",
+        "name": "Flohmarkt", "name_orig": "Fuhsestraße",
         "postal_code": "31311"
       },
       "geometry": {
@@ -973,7 +973,7 @@
       "properties": {
         "@id": "way/582931639",
         "highway": "residential",
-        "name": "Alte Dorfstraße",
+        "name": "Flohmarkt", "name_orig": "Alte Dorfstraße",
         "postal_code": "31311"
       },
       "geometry": {
@@ -996,7 +996,7 @@
       "properties": {
         "@id": "way/582931642",
         "highway": "residential",
-        "name": "Alte Dorfstraße",
+        "name": "Flohmarkt", "name_orig": "Alte Dorfstraße",
         "postal_code": "31311"
       },
       "geometry": {
@@ -1027,7 +1027,7 @@
       "properties": {
         "@id": "way/582931643",
         "highway": "residential",
-        "name": "Alte Dorfstraße",
+        "name": "Flohmarkt", "name_orig": "Alte Dorfstraße",
         "postal_code": "31311"
       },
       "geometry": {
@@ -1058,7 +1058,7 @@
       "properties": {
         "@id": "way/582931644",
         "highway": "residential",
-        "name": "Kapellenweg",
+        "name": "Flohmarkt", "name_orig": "Kapellenweg",
         "postal_code": "31311"
       },
       "geometry": {
@@ -1081,7 +1081,7 @@
       "properties": {
         "@id": "way/582931654",
         "highway": "residential",
-        "name": "Gustav-Hennigs-Straße",
+        "name": "Flohmarkt", "name_orig": "Gustav-Hennigs-Straße",
         "postal_code": "31311"
       },
       "geometry": {
@@ -1116,7 +1116,7 @@
       "properties": {
         "@id": "way/34160190",
         "highway": "residential",
-        "name": "Sandkamp",
+        "name": "Flohmarkt", "name_orig": "Sandkamp",
         "postal_code": "31311"
       },
       "geometry": {
@@ -1139,7 +1139,7 @@
       "properties": {
         "@id": "way/34847739",
         "highway": "residential",
-        "name": "Theodor-Storm-Straße",
+        "name": "Flohmarkt", "name_orig": "Theodor-Storm-Straße",
         "postal_code": "31311"
       },
       "geometry": {
@@ -1162,7 +1162,7 @@
       "properties": {
         "@id": "way/34169507",
         "highway": "residential",
-        "name": "Am Kapellenberg",
+        "name": "Flohmarkt", "name_orig": "Am Kapellenberg",
         "postal_code": "31311"
       },
       "geometry": {
@@ -1217,7 +1217,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name" : "Kaffee, Kuchen, Bratwurst und öffentliche Toiletten"
+        "name": "Kaffee, Kuchen, Bratwurst und öffentliche Toiletten"
       },
       "geometry": {
         "type": "Point",
