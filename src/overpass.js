@@ -61,17 +61,17 @@ overpass.search_meta = function(searchstring, callback) {
       query = query + 'node["amenity"="restaurant"](' + overpass.area + ');'
       query = query + 'way["amenity"="restaurant"](' + overpass.area + ');'
       match=true;
-  } else if  ( searchstring == "Spielplatz" ) {
+  } else if ( searchstring == "Spielplatz" ) {
       query = query + 'node["leisure"="playground"](' + overpass.area + ');'
       query = query + 'way["leisure"="playground"](' + overpass.area + ');'
       match=true;
-  } else if  ( searchstring == "Briefkasten" ) {
+  } else if ( searchstring == "Briefkasten" ) {
       query = query + 'node["amenity"="post_box"](' + overpass.area + ');'
       query = query + 'way["amenity"="post_box"](' + overpass.area + ');'
       match=true;
-  } else if  ( searchstring == "Geschäft" ) {
-      query = query + 'node["shop"](' + overpass.area + ');'
-      query = query + 'way["shop"](' + overpass.area + ');'
+  } else if ( searchstring == "Parkplatz" ) {
+      query = query + 'node["amenity"="parking"](' + overpass.area + ');'
+      query = query + 'way["amenity"="parking"](' + overpass.area + ');'
       match=true;
   }
 

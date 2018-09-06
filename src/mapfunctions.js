@@ -53,6 +53,8 @@ var search = function(searchstring) {
       content = content + '<b>' + 'Briefkasten' + '</b><br>';
     } else if (ObjectCompare(layer, "feature.properties.tags.leisure", "playground")) {
       content = content + '<b>' + 'Spielplatz' + '</b><br>';
+    } else if (ObjectCompare(layer, "feature.properties.tags.amenity", "parking")) {
+      content = content + '<b>' + 'Parkplatz' + '</b><br>';
     }
 
     if (ObjectCompare(layer, "feature.properties.tags.opening_hours")) {
@@ -71,6 +73,12 @@ var search = function(searchstring) {
       content = content + 'Telefon: ' + layer.feature.properties.tags.phone + '<br>';
     }
 
+    if (ObjectCompare(layer, "feature.properties.tags.access")) {
+      var access = layer.feature.properties.tags['access'];
+      if (access == "customers") {
+        content = content + 'Nur für Kunden' + '<br>';
+      }
+    }
 
 //     content = content + layer.feature.properties.tags.description + '<br>';
 //     content = content + '<br>';
