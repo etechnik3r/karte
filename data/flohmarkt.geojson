@@ -1243,7 +1243,8 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Hier liegen Standpläne zum Mitnehmen"
+        "name": "Hier liegen Standpläne zum Mitnehmen",
+        "type": "POI"
       },
       "geometry": {
         "type": "Point",
@@ -1256,7 +1257,8 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Kaffee, Kuchen, Bratwurst und öffentliche Toiletten"
+        "name": "Kaffee, Kuchen, Bratwurst und öffentliche Toiletten",
+        "type": "POI"
       },
       "geometry": {
         "type": "Point",

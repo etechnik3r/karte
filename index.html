@@ -136,7 +136,23 @@
     <script src="src/overpass.js"></script>
     <script src="src/mapfunctions.js"></script>
     <script src="src/dorferlebnispfad.js"></script>
-<!--     <script src="src/flohmarkt.js"></script> -->
+    <script src="src/flohmarkt.js"></script>
+
+    <script>
+      var urlParams = new URLSearchParams(window.location.search);
+      console.log(urlParams);
+
+//       document.getElementById('flohmarkt').checked=true;
+//       showFlohmarkt(true);
+      
+      if (urlParams.has('flohmarkt')) {
+        var flohmarkt_url = urlParams.get('flohmarkt');
+        if (flohmarkt_url != "") {
+          flohmarkt_data=flohmarkt_url;
+        }
+        showFlohmarkt(true);
+      }
+    </script>
 
     <script>
 // Get the Sidebar
