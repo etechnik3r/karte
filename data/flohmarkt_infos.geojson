@@ -156,6 +156,67 @@
           52.40724612893691
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "parking",
+        "description": "Wenige Parkplätze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.18354833126068,
+          52.410191313172184
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kinderflohmarkt"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.18195241689682,
+              52.4076650115788
+            ],
+            [
+              10.18181025981903,
+              52.40738848403093
+            ],
+            [
+              10.182437896728514,
+              52.40728539935355
+            ],
+            [
+              10.182563960552214,
+              52.4075341111805
+            ],
+            [
+              10.18195241689682,
+              52.4076650115788
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "kinderflohmarkt",
+        "description": "Kinderflohmark: Von Kindern, für Kinder."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.182164311408997,
+          52.40746866083566
+        ]
+      }
     }
   ]
 }

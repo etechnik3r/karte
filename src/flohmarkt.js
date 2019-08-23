@@ -24,6 +24,16 @@ var showFlohmarkt = function(show) {
         shadowAnchor: [13, 41]
       });
       
+      var icon_flohmarkt_kinder = L.icon({
+        iconUrl: 'images/marker-kinderflohmarkt.png',
+        iconSize: [25, 40],
+        iconAnchor: [13, 40],
+        popupAnchor: [0, -42],
+        shadowUrl: 'images/marker-shadow.png',
+        shadowSize: [41, 41],
+        shadowAnchor: [13, 41]
+      });
+
       var icon_roadclosed = L.icon({
         iconUrl: 'images/marker_einfahrtverboten.png',
         iconSize: [20, 20],
@@ -65,6 +75,9 @@ var showFlohmarkt = function(show) {
           }
           else if (feature.properties.type && feature.properties.type=="parking") {
             marker=L.marker(latlng, {icon: icon_flohmarkt_parking});
+          }
+          else if (feature.properties.type && feature.properties.type=="kinderflohmarkt") {
+            marker=L.marker(latlng, {icon: icon_flohmarkt_kinder});
           }
           else if (feature.properties.type && feature.properties.type=="noparking") {
             marker=L.marker(latlng, {icon: icon_noparking});
