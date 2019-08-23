@@ -1,0 +1,161 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "parking",
+        "name": "Parking area"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.178285837173462,
+              52.410138956058255
+            ],
+            [
+              10.178162455558777,
+              52.40995243333471
+            ],
+            [
+              10.179739594459534,
+              52.40955320660895
+            ],
+            [
+              10.179873704910278,
+              52.40973973102073
+            ],
+            [
+              10.178285837173462,
+              52.410138956058255
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "parking",
+        "name": "Zufahrt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            10.176558494567871,
+            52.410220764021474
+          ],
+          [
+            10.17730414867401,
+            52.41010623283045
+          ],
+          [
+            10.178216099739075,
+            52.410030969314434
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "parking",
+        "description": "Großer unbefestigter Parkplatz<br>Anfahrt über Feuerwehr"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.179020762443542,
+          52.40981172268799
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "noparking",
+        "description": "Befestigte Parkplätze der Feuerwehr bitte NICHT belegen."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.17707347869873,
+          52.410191313172184
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "parking",
+        "description": "Wenige Parkplätze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.180648863315582,
+          52.40754720123781
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "roadclosed",
+        "description": "Aufgrund Bauarbeiten kein Durchfahrt für Autos in östliche Richtung"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.183526873588562,
+          52.40750138602022
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "roadclosed",
+        "description": "Aufgrund Bauarbeiten kein Durchfahrt für Autos in westliche Richtung"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.185763835906982,
+          52.406882875925554
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "essen",
+        "description": "Kaffee, Kuchen, Bratwurst und öffentliche Toiletten im Siedlerheim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.179318487644196,
+          52.40512547452164
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "parking",
+        "description": "Wenige Parkplätze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.181692242622375,
+          52.40724612893691
+        ]
+      }
+    }
+  ]
+}

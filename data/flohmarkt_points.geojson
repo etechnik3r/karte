@@ -1,603 +1,694 @@
-{
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Ostlandweg 1"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.185986459255219,
-          52.40993116314948
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Ostlandweg 1"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.185973048210142,
-          52.40990825678467
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Ostlandweg 1"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.18595427274704,
-          52.40987716955625
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Ostlandweg 1"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.185940861701965,
-          52.40984771847756
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Ostlandweg 1"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.185991823673248,
-          52.40996225033983
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Ostlandweg 1"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.185930132865906,
-          52.4098264482418
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Ostlandweg 3"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.186034739017487,
-          52.410122594447394
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Ostlandweg 3"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.186026692390442,
-          52.41007514574158
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Heisterbusch 5"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.17809271812439,
-          52.40838986550327
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Pappelweg 34a"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.187544822692871,
-          52.41041546636367
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Fuhsestraße 31"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.18480896949768,
-          52.407100500836634
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Fuhsestraße 31"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.184881389141083,
-          52.40707595672745
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Bahnhofstraße 27"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.174377858638763,
-          52.405328381052
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Wilhelm-Busch-Straße 20"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.180673003196715,
-          52.40792026623822
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "An der Wende 2"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.176502168178558,
-          52.40816242954972
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "An der Masch 9"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.187410712242126,
-          52.40647216734131
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "An der Masch 9"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.187464356422424,
-          52.40647216734131
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "An der Masch 9"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.187504589557648,
-          52.40647216734131
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "An der Masch 9"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.1875501871109,
-          52.40646889474761
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "An der Masch 9"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.187585055828094,
-          52.40646398585657
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "An der Masch 9"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.187609195709229,
-          52.40646725845065
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "An der Masch 9"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.187654793262482,
-          52.40646398585657
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Hermann-Löns-Straße 10"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.178768634796143,
-          52.40699905176356
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Schwüblingser Straße 4"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.173310339450836,
-          52.40611381688717
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Schwüblingser Straße 4"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.17336130142212,
-          52.40610399902554
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Fuhsering 12"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.179554522037506,
-          52.40912779710487
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Sanders-Thielen-Weg 1"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.18468290567398,
-          52.410230580966875
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Sanders-Thielen-Weg 1"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.184669494628906,
-          52.410196221648434
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Sanders-Thielen-Weg 1"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.18466144800186,
-          52.41015368150281
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Sanders-Thielen-Weg 1"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.184701681137083,
-          52.41026821257063
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Im Eckerskampfeld 1"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.182663202285767,
-          52.41031402491447
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Pröbenweg 2"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.175174474716187,
-          52.409728277790094
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Pröbenweg 2"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.175222754478455,
-          52.409721733085554
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Pröbenweg 5"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.174713134765623,
-          52.40975445659859
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Pröbenweg 5"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.174766778945923,
-          52.409746275722604
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Kapellenweg 1"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.183601975440979,
-          52.40663906929893
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Kapellenweg 1"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.183526873588562,
-          52.40665379591192
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Ackersbergstraße 11"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.181869268417358,
-          52.409914801461525
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Alte Dorfstraße 5"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.17558753490448,
-          52.40587327864821
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Im Heesters 7"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.177376568317413,
-          52.406868149389055
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Flachsworth 5"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.17647534608841,
-          52.40456093128078
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Flachsworth 5"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.176515579223633,
-          52.40453311302127
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Flachsworth 5"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.176571905612946,
-          52.40453965849566
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Wilhelm-Busch-Straße 9a"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.180584490299225,
-          52.407453934494725
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Gustav-Hennigs-Straße 18"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.181252360343933,
-          52.40620217754351
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Gustav-Hennigs-Straße 18"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.181249678134916,
-          52.40616290616256
-        ]
-      }
-    }
-  ]
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ostlandweg 1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.185986459255219,
+          52.40993116314948
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ostlandweg 1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.185973048210142,
+          52.40990825678467
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ostlandweg 1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.18595427274704,
+          52.40987716955625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ostlandweg 1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.185940861701965,
+          52.40984771847756
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ostlandweg 1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.185991823673248,
+          52.40996225033983
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ostlandweg 1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.185930132865906,
+          52.4098264482418
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ostlandweg 3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.186034739017487,
+          52.410122594447394
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ostlandweg 3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.186026692390442,
+          52.41007514574158
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Heisterbusch 5"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.17809271812439,
+          52.40838986550327
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pappelweg 34a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.187544822692871,
+          52.41041546636367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fuhsestraße 31"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.18480896949768,
+          52.407100500836634
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fuhsestraße 31"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.184881389141083,
+          52.40707595672745
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bahnhofstraße 27"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.174377858638763,
+          52.405328381052
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wilhelm-Busch-Straße 20"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.180673003196715,
+          52.40792026623822
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "An der Wende 2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.176502168178558,
+          52.40816242954972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "An der Masch 9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.187410712242126,
+          52.40647216734131
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "An der Masch 9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.187464356422424,
+          52.40647216734131
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "An der Masch 9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.187504589557648,
+          52.40647216734131
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "An der Masch 9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.1875501871109,
+          52.40646889474761
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "An der Masch 9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.187585055828094,
+          52.40646398585657
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "An der Masch 9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.187609195709229,
+          52.40646725845065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "An der Masch 9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.187654793262482,
+          52.40646398585657
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hermann-Löns-Straße 10"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.178768634796143,
+          52.40699905176356
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Schwüblingser Straße 4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.173310339450836,
+          52.40611381688717
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Schwüblingser Straße 4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.17336130142212,
+          52.40610399902554
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fuhsering 12"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.179554522037506,
+          52.40912779710487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sanders-Thielen-Weg 1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.18468290567398,
+          52.410230580966875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sanders-Thielen-Weg 1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.184669494628906,
+          52.410196221648434
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sanders-Thielen-Weg 1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.18466144800186,
+          52.41015368150281
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sanders-Thielen-Weg 1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.184701681137083,
+          52.41026821257063
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Im Eckerskampfeld 1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.182663202285767,
+          52.41031402491447
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pröbenweg 2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.175174474716187,
+          52.409728277790094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pröbenweg 2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.175222754478455,
+          52.409721733085554
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pröbenweg 5"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.174713134765623,
+          52.40975445659859
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pröbenweg 5"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.174766778945923,
+          52.409746275722604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kapellenweg 1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.183601975440979,
+          52.40663906929893
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kapellenweg 1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.183526873588562,
+          52.40665379591192
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ackersbergstraße 11"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.181869268417358,
+          52.409914801461525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Alte Dorfstraße 5"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.17558753490448,
+          52.40587327864821
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Im Heesters 7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.177376568317413,
+          52.406868149389055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Flachsworth 5"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.17647534608841,
+          52.40456093128078
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Flachsworth 5"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.176515579223633,
+          52.40453311302127
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Flachsworth 5"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.176571905612946,
+          52.40453965849566
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wilhelm-Busch-Straße 9a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.180584490299225,
+          52.407453934494725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gustav-Hennigs-Straße 18"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.181252360343933,
+          52.40620217754351
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gustav-Hennigs-Straße 18"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.181249678134916,
+          52.40616290616256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ostlandweg 5"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.186115205287933,
+          52.41032875030061
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Alte Dorfstraße 33"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.180898308753967,
+          52.40529401791491
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fuhsestraße 21a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.1829394698143,
+          52.40758810764186
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Am Kapellenberg 2a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.18559217453003,
+          52.40603854655884
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pröbenweg 7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.17448514699936,
+          52.40978718008735
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pröbenweg 3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.17498403787613,
+          52.409721733085554
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bahnhofstraße 13"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.173929929733275,
+          52.40424511118615
+        ]
+      }
+    }
+  ]
 }
