@@ -63,7 +63,7 @@
       "type": "Feature",
       "properties": {
         "type": "parking",
-        "description": "Großer unbefestigter Parkplatz<br>Anfahrt über Feuerwehr"
+        "description": "Großer unbefestigter Parkplatz<br>Zufahrt über Feuerwehr"
       },
       "geometry": {
         "type": "Point",

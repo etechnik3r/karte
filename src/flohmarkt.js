@@ -50,7 +50,7 @@ var showFlohmarkt = function(show) {
           }
           else {
             style.color= "#ff0000"
-            style.weight= 5
+            style.weight= 8
             style.opacity= 0.65
           }
           return style;
