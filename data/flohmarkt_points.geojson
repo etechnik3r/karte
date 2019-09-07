@@ -290,19 +290,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Hermann-Löns-Straße 10"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.178768634796143,
-          52.40699905176356
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Schwüblingser Straße 4"
       },
       "geometry": {
@@ -791,6 +778,45 @@
         "coordinates": [
           10.186522901058197,
           52.40808552648
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pommernweg 2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.17767161130905,
+          52.407071047903955
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "An der Wasserstraße 3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.185991823673248,
+          52.40532183569461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Im Eckerskampfeld 5"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.183529555797577,
+          52.41026494025855
         ]
       }
     }
