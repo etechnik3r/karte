@@ -819,6 +819,71 @@
           52.41026494025855
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Im Heesters 1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.17707347869873,
+          52.40586509705237
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Im Eckerskampfeld 9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.184744596481323,
+          52.41006860108851
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Alte Dorfstraße 42"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.186766982078552,
+          52.406005820289046
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Poststraße 12"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.183183550834656,
+          52.407021959639145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pommernweg 4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.177733302116394,
+          52.40728703562016
+        ]
+      }
     }
   ]
 }
