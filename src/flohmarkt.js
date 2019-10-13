@@ -164,5 +164,5 @@ var showFlohmarkt = function(show) {
 }
 
 
-document.getElementById('flohmarkt').checked=true;
-showFlohmarkt(true);
+// document.getElementById('flohmarkt').checked=true;
+// showFlohmarkt(true);
