@@ -9,164 +9,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.185986459255219,
-          52.40993116314948
+          10.18608570098877,
+          52.40987389721514
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "Ostlandweg 1"
+        "name": "Sandkamp 4"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.185973048210142,
-          52.40990825678467
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Ostlandweg 1"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.18595427274704,
-          52.40987716955625
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Ostlandweg 1"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.185940861701965,
-          52.40984771847756
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Ostlandweg 1"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.185991823673248,
-          52.40996225033983
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Ostlandweg 1"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.185930132865906,
-          52.4098264482418
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Ostlandweg 3"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.186034739017487,
-          52.410122594447394
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Ostlandweg 3"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.186026692390442,
-          52.41007514574158
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Heisterbusch 5"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.17809271812439,
-          52.40838986550327
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Pappelweg 34a"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.187544822692871,
-          52.41041546636367
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Fuhsestraße 31"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.18480896949768,
-          52.407100500836634
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Fuhsestraße 31"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.184881389141083,
-          52.40707595672745
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Bahnhofstraße 27"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.174377858638763,
-          52.405328381052
+          10.176215171813965,
+          52.414356776871216
         ]
       }
     },
@@ -178,47 +35,34 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.180673003196715,
-          52.40792026623822
+          10.180469155311583,
+          52.407952991087726
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "An der Wende 2"
+        "name": "Sandkamp 3"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.176502168178558,
-          52.40816242954972
+          10.17657995223999,
+          52.41410155945906
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "An der Masch 9"
+        "name": "Sander-Thielen-Weg 2"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.187410712242126,
-          52.40647216734131
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "An der Masch 9"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.187464356422424,
-          52.40647216734131
+          10.184476375579834,
+          52.41029602721364
         ]
       }
     },
@@ -230,151 +74,60 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.187504589557648,
-          52.40647216734131
+          10.187485814094543,
+          52.40682724231732
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "An der Masch 9"
+        "name": "Fuhsring 14"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.1875501871109,
-          52.40646889474761
+          10.179390907287598,
+          52.40882346317296
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "An der Masch 9"
+        "name": "Poststraße 4"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.187585055828094,
-          52.40646398585657
+          10.182749032974243,
+          52.40585855177464
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "An der Masch 9"
+        "name": "Ginsterweg 1"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.187609195709229,
-          52.40646725845065
+          10.179739594459534,
+          52.41520094701985
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "An der Masch 9"
+        "name": "Ostlandweg 4"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.187654793262482,
-          52.40646398585657
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Schwüblingser Straße 4"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.173310339450836,
-          52.40611381688717
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Schwüblingser Straße 4"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.17336130142212,
-          52.40610399902554
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Fuhsering 12"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.179554522037506,
-          52.40912779710487
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Sanders-Thielen-Weg 1"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.18468290567398,
-          52.410230580966875
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Sanders-Thielen-Weg 1"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.184669494628906,
-          52.410196221648434
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Sanders-Thielen-Weg 1"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.18466144800186,
-          52.41015368150281
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Sanders-Thielen-Weg 1"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.184701681137083,
-          52.41026821257063
+          10.18582820892334,
+          52.41018149621806
         ]
       }
     },
@@ -386,164 +139,125 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.182663202285767,
-          52.41031402491447
+          10.182614922523499,
+          52.41021421939001
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "Pröbenweg 2"
+        "name": "Ackersbergstraße 54"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.175174474716187,
-          52.409728277790094
+          10.183907747268677,
+          52.415374359817115
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "Pröbenweg 2"
+        "name": "Bahnhofstraße 27"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.175222754478455,
-          52.409721733085554
+          10.174670219421385,
+          52.405495287337054
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "Pröbenweg 5"
+        "name": "Gasolinweg 1"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.174713134765623,
-          52.40975445659859
+          10.183650255203247,
+          52.41058071725711
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "Pröbenweg 5"
+        "name": "Fuhsestraße 33"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.174766778945923,
-          52.409746275722604
+          10.185796022415161,
+          52.4067519732063
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "Kapellenweg 1"
+        "name": "Theodor-Heuß-Straße 5"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.183601975440979,
-          52.40663906929893
+          10.181944370269774,
+          52.41501771766297
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "Kapellenweg 1"
+        "name": "Bahnhofstraße 4"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.183526873588562,
-          52.40665379591192
+          10.173929929733275,
+          52.40505020250693
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "Ackersbergstraße 11"
+        "name": "Heinrich-Böll-Weg 12"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.181869268417358,
-          52.409914801461525
+          10.184406638145447,
+          52.411650742711785
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "Alte Dorfstraße 5"
+        "name": "Ackersbergstraße 49"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.17558753490448,
-          52.40587327864821
+          10.184100866317749,
+          52.41471669635252
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "Im Heesters 7"
+        "name": "Bahnhofstraße 25"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.177376568317413,
-          52.406868149389055
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Flachsworth 5"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.17647534608841,
-          52.40456093128078
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Flachsworth 5"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.176515579223633,
-          52.40453311302127
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Flachsworth 5"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.176571905612946,
-          52.40453965849566
+          10.17458438873291,
+          52.405328381052
         ]
       }
     },
@@ -555,242 +269,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.180584490299225,
-          52.407453934494725
+          10.1807963848114,
+          52.4076650115788
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "Gustav-Hennigs-Straße 18"
+        "name": "Druffelkamp 4"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.181252360343933,
-          52.40620217754351
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Gustav-Hennigs-Straße 18"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.181249678134916,
-          52.40616290616256
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Ostlandweg 5"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.186115205287933,
-          52.41032875030061
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Alte Dorfstraße 33"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.180898308753967,
-          52.40529401791491
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Fuhsestraße 21a"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.1829394698143,
-          52.40758810764186
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Am Kapellenberg 2a"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.18559217453003,
-          52.40603854655884
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Pröbenweg 7"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.17448514699936,
-          52.40978718008735
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Pröbenweg 3"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.17498403787613,
-          52.409721733085554
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Bahnhofstraße 13"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.173929929733275,
-          52.40424511118615
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Im Heesters 14"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.176883041858673,
-          52.40726412788221
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Bahnhofstraße 16"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.174959897994993,
-          52.40700559687209
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Bahnhofstraße 9"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.173768997192381,
-          52.40386546953087
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Kapellenweg 3"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.183789730072021,
-          52.406596525722634
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Pröbenweg 9a"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.174045264720917,
-          52.409854263163396
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Pommernweg 5"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.177792310714722,
-          52.40755865503476
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Alte Dorfstraße 13a"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.178052484989166,
-          52.40518274662071
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Pappelweg 6"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.186522901058197,
-          52.40808552648
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Pommernweg 2"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.17767161130905,
-          52.407071047903955
+          10.1728355884552,
+          52.40590764133407
         ]
       }
     },
@@ -802,86 +295,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.185991823673248,
-          52.40532183569461
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Im Eckerskampfeld 5"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.183529555797577,
-          52.41026494025855
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Im Heesters 1"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.17707347869873,
-          52.40586509705237
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Im Eckerskampfeld 9"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.184744596481323,
-          52.41006860108851
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Alte Dorfstraße 42"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.186766982078552,
-          52.406005820289046
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Poststraße 12"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.183183550834656,
-          52.407021959639145
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Pommernweg 4"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.177733302116394,
-          52.40728703562016
+          10.18606424331665,
+          52.40528910889316
         ]
       }
     }
