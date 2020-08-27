@@ -4,20 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "type": "noparking",
-        "description": "Befestigte Parkplätze der Feuerwehr bitte NICHT belegen."
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.17707347869873,
-          52.410191313172184
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "type": "parking",
         "name": "Parking",
         "description": "Wenige Parkplätze"
