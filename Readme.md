@@ -1,1 +1,1 @@
-Repository for https://dollbergen.github.io/karte
+Repository for https://etechnik3r.github.io/karte
