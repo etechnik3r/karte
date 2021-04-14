@@ -120,12 +120,8 @@ var showFlohmarkt = function(show) {
             marker=L.marker(latlng, {icon: icon_roadclosed});
           }
           else {
-            var geojsonMarkerOptions = {
-              radius: 8,
-              fillColor: "#ff0000",
-              fillOpacity: 0.7
-            };
-            var marker=L.circleMarker(latlng, geojsonMarkerOptions);
+
+            var marker=L.marker(latlng);
           }
 
           if (feature.properties.description) {
@@ -141,19 +137,11 @@ var showFlohmarkt = function(show) {
 //         return '<b>' + layer.feature.properties.name + '</b>';
 //       });
       
-      $.getJSON( "data/flohmarkt_infos.geojson", function(geojson ) {
-          //var geojson = osmtogeojson(json_data);
+      $.getJSON( "data/map.geojson", function(geojson ) {
           layerFlohmarkt.addData(geojson);
+          map.fitBounds(layerFlohmarkt.getBounds());
       });
 
-      if (typeof flohmarkt_data == "undefined") {
-        flohmarkt_data="flohmarkt_streets.geojson";
-      }
-      $.getJSON( "data/" + flohmarkt_data, function(geojson ) {
-          //var geojson = osmtogeojson(json_data);
-          layerFlohmarkt.addData(geojson);
-      });
-      
     }
     map.addLayer(layerFlohmarkt);
   } else {

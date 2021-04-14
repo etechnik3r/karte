@@ -38,168 +38,44 @@
     </script>
 
 
-
-<!-- Matomo -->
-<script type="text/javascript">
-  var _paq = _paq || [];
-  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-  _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
-  _paq.push(['trackPageView']);
-  _paq.push(['enableLinkTracking']);
-  (function() {
-    var u="//piwik.klomp.eu/";
-    _paq.push(['setTrackerUrl', u+'piwik.php']);
-    _paq.push(['setSiteId', '2']);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-  })();
-</script>
-<!-- End Matomo Code -->
-
-
-
   </head>
 
   <body>
 
     <!-- Top Container -->
     <div class="w3-bar w3-top w3-black w3-large" style="z-index:1004">
-      <button class="w3-bar-item w3-button w3-hide-large w3-hover-none w3-hover-text-light-grey" onclick="w3_open();"><i class="fa fa-bars"></i>  Menu</button>
-      <span class="w3-bar-item w3-right">Dollbergen</span>
+      <span class="w3-bar-item">Test</span>
     </div>
        
-
-
-    <!-- Sidebar/menu -->
-    <nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:1003;width:300px;" id="mySidebar"><br>
-
-        <div class="w3-container w3-padding-16">
-          <div class="w3-row">
-            <div class="w3-col w3-right" style="width:100px">
-              <button class="w3-button w3-block w3-black w3-round-large" id="btnSearch" name="submit" value="Suchen"
-                onclick="search(document.getElementById('txtSearch').value); w3_close(); return false">Suchen</button>
-            </div> 
-            <div class="w3-rest">
-              <input class="w3-input w3-border w3-round-large" type="text" id="txtSearch" placeholder=""
-                onkeydown = "if (event.keyCode == 13) document.getElementById('btnSearch').click();">
-            </div>
-          </div>
-            Beispiele:<br>
-            <button class="w3-button w3-tiny w3-padding-small w3-blue" style="margin:3px" onclick="setSearchString('Spielplatz');">Spielplatz</button>
-            <button class="w3-button w3-tiny w3-padding-small w3-blue" style="margin:3px" onclick="setSearchString('Briefkasten');">Briefkasten</button>
-            <button class="w3-button w3-tiny w3-padding-small w3-blue" style="margin:3px" onclick="setSearchString('Parkplatz');">Parkplatz</button>
-            <button class="w3-button w3-tiny w3-padding-small w3-blue" style="margin:3px" onclick="setSearchString('Restaurant');">Restaurant</button>
-            <button class="w3-button w3-tiny w3-padding-small w3-blue" style="margin:3px" onclick="setSearchString('Geschäft');">Geschäft</button>
-            <button class="w3-button w3-tiny w3-padding-small w3-blue" style="margin:3px" onclick="setSearchString('Blau');">Blau</button>
-        </div>
-
-      <div class="w3-container w3-padding-8">
-            <label>
-                <input class="w3-check" type="checkbox" 
-                onclick="showDorferlebnispfad(this.checked); w3_close();">
-                Dorferlebnispfad
-            </label>
-      </div>
-<!--      
-      <div class="w3-container w3-padding-8">
-            <label>
-                <input class="w3-check" type="checkbox" id="flohmarkt"
-                onclick="showFlohmarkt(this.checked); w3_close()">
-                Flohmarkt 2019
-            </label>
-      </div>
--->
-
-      <div class="w3-container w3-padding-8 w3-small w3-margin-top">
-            Anmerkungen, Ergänzungen und Fehler bitte an <a href="mailto:karte@dollbergen.de">karte@dollbergen.de</a> senden.
-        </div>
-
-        </nav>
-    
-    <!-- Overlay effect when opening sidebar on small screens -->
-<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer;z-index:1002" title="close side menu" id="myOverlay"></div>
-
     
     <!-- !PAGE CONTENT! -->
     <div class="w3-main" style="margin-left:300px;margin-top:43px;">  
-
-    <div style="width:100%; height: 95vh;" id='map'></div>
-
-
-   
-      <!-- Footer -->
-  <!-- <footer class="w3-container w3-padding-8 w3-light-grey"> -->
-    <!-- <h4>FOOTER</h4> -->
-    <!-- <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p> -->
-  <!-- </footer> -->
-  
-    <!-- End page content -->
+      <div style="width:100%; height: 95vh;" id='map'></div>
     </div>
 
-    <div id="infoAddDetails" class="w3-modal" style="z-index:1200">
-      <div class="w3-modal-content">
-        <div class="w3-container">
-          <span onclick="document.getElementById('infoAddDetails').style.display='none'"
-          class="w3-button w3-display-topright">&times;</span>
-          <p>Pop Up</p>
-        </div>
-      </div>
-    </div>
     
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
       integrity="sha384-vk5WoKIaW/vJyUAd9n/wmopsmNhiy+L2Z+SBxGYnUkunIxVxAv/UtMOhba/xskxh"
       crossorigin="anonymous"></script>
-    <script src="3rdparty/js/osmtogeojson.js"></script>
-    <script src="src/overpass.js"></script>
-    <script src="src/mapfunctions.js"></script>
-    <script src="src/dorferlebnispfad.js"></script>
     <script src="src/flohmarkt.js"></script>
 
     <script>
-      L.control.locate({keepCurrentZoomLevel:true}).addTo(map);
+    // Initialise map
+var map = L.map('map'); 
+searchresultlayer = L.geoJSON().addTo(map);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxNativeZoom: 19,
+  maxZoom: 22,
+  attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(map);
+      L.control.locate().addTo(map);
     </script>
     
     <script>
-      var urlParams = new URLSearchParams(window.location.search);
-      console.log(urlParams);
-
-//       document.getElementById('flohmarkt').checked=true;
-//       showFlohmarkt(true);
-      
-      if (urlParams.has('flohmarkt')) {
-        var flohmarkt_url = urlParams.get('flohmarkt');
-        if (flohmarkt_url != "") {
-          flohmarkt_data=flohmarkt_url;
-        }
-        showFlohmarkt(true);
-      }
+      showFlohmarkt(true);
     </script>
 
-    <script>
-// Get the Sidebar
-var mySidebar = document.getElementById("mySidebar");
-
-// Get the DIV with overlay effect
-var overlayBg = document.getElementById("myOverlay");
-
-// Toggle between showing and hiding the sidebar, and add overlay effect
-function w3_open() {
-    if (mySidebar.style.display === 'block') {
-        mySidebar.style.display = 'none';
-        overlayBg.style.display = "none";
-    } else {
-        mySidebar.style.display = 'block';
-        overlayBg.style.display = "block";
-    }
-}
-
-// Close the sidebar with the close button
-function w3_close() {
-    mySidebar.style.display = "none";
-    overlayBg.style.display = "none";
-}
-</script>
     
   </body>
 </html>
