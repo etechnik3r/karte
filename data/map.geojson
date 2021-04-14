@@ -3,73 +3,72 @@
   "features": [
     {
       "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "parking",
+        "title": "Parkplatz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.828549861907959,
+          52.341435486417495
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "properties": {},
       "geometry": {
-        "type": "LineString",
+        "type": "Point",
         "coordinates": [
-          [
-            9.437255859375,
-            52.251346020673644
-          ],
-          [
-            9.4207763671875,
-            52.579688026538726
-          ],
-          [
-            9.82177734375,
-            52.859180945520826
-          ],
-          [
-            10.21728515625,
-            52.53961418106945
-          ],
-          [
-            9.4482421875,
-            52.58302586141648
-          ],
-          [
-            10.21728515625,
-            52.25807132666112
-          ],
-          [
-            10.1898193359375,
-            52.522905940278065
-          ],
-          [
-            9.4757080078125,
-            52.24461969494769
-          ],
-          [
-            10.1898193359375,
-            52.24798298528184
-          ]
+          10.828077793121336,
+          52.34629890471007
         ]
       }
     },
     {
       "type": "Feature",
-      "properties": {
-        "type": "essen",
-        "description": "Ask me for special markers"
-      },
+      "properties": {},
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.008544921875,
-          52.7196583572198
+          10.835952758789062,
+          52.35120110836841
         ]
       }
     },
     {
       "type": "Feature",
-      "properties": {
-        "description": "Hello"
-      },
+      "properties": {},
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.879455566406248,
-          52.40577019043
+          10.836703777313232,
+          52.3473344422149
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.837068557739258,
+          52.34188121278695
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.831725597381592,
+          52.34340189246775
         ]
       }
     }
